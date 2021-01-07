@@ -283,6 +283,10 @@ body {
   margin-right: auto;
 }
 
+.col-lg-12 {
+  width: 100%;
+}
+
 }
 
 .berlin-illustration {
