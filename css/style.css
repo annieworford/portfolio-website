@@ -269,6 +269,10 @@ body {
   width: 58.33%;
 }
 
+.col-lg-6 {
+  width: 50%;
+}
+
 #contact span {
   display: block;
 }
