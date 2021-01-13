@@ -13,8 +13,7 @@ Fifth Color (white): #F5F5F5;
 
 header {
   background-color: #C3D7DF;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   position: relative;
   -webkit-box-shadow: 0px 9px 16px 0px rgba(50, 50, 50, 0.63);
   -moz-box-shadow:    0px 9px 16px 0px rgba(50, 50, 50, 0.63);
@@ -152,22 +151,16 @@ a:active {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 
-nav {
-  display: inline-block;
-  width: 100%;
-}
 
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
-}
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -197,6 +190,7 @@ nav > ul > li > a:active {
 }
 
 #contact {
+  onclick="menuToggle()";
   background-color: #C3D7DF;
   padding: 20px 0;
   text-align: center;
@@ -218,6 +212,35 @@ nav > ul > li > a:active {
   margin-bottom: 20px;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  padding-right: 0;
+  right: 0;
+  top: 2px;
+  font-size: 80px;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid #4E8AA4;
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
 
 [class*="col-"] {
   float: left;
@@ -225,9 +248,29 @@ nav > ul > li > a:active {
 }
 
 @media only screen and (min-width: 640px) {
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul {
+  margin: 1em 0;
+}
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+
 header {
   text-align: unset;
   padding: 20px 0 13px;
+}
+
+.logo {
+  max-width: 250px;
 }
 
 nav {
