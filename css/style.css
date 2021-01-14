@@ -247,7 +247,8 @@ nav > ul > li > a:active {
   padding: 10px;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 639px) {
+
 nav > ul > li {
   display: inline-block;
 }
@@ -269,9 +270,6 @@ header {
   padding: 20px 0 13px;
 }
 
-.logo {
-  max-width: 250px;
-}
 
 nav {
   width: auto;
@@ -279,9 +277,6 @@ nav {
   margin-top: 4px;
 }
 
-.logo {
-  max-width: 150px;
-}
 
 body {
   font-size: 18px;
@@ -302,7 +297,12 @@ body {
 
 }
 
+
 @media only screen and (min-width: 1024px) {
+
+  .logo {
+    max-width: 250px;
+  }
 
 .col-lg-5 {
   width: 41.66%;
