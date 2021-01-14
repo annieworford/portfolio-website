@@ -247,7 +247,7 @@ nav > ul > li > a:active {
   padding: 10px;
 }
 
-@media only screen and (min-width: 639px) {
+@media only screen and (min-width: 640px) {
 
 body {
   font-size: 18px;
