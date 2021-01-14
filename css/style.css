@@ -344,19 +344,6 @@ body {
   height: auto;
 }
 
-@keyframes color-change {
-  0% {fill: #edc655;}
- 50% {fill: #fcffad;}
- 100% {fill: #f76414;}
-
-}
-
-.sun {
-  animation-duration: 4s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
 }
 
 @keyframes cloud-move {
@@ -364,23 +351,10 @@ body {
   to {transform: translate(200px,50px);}
 }
 
-.cloud-front {
+.scissors {
   animation-duration: 30s;
   animation-name: cloud-move;
   animation-iteration-count: infinite;
   animation-direction: alternative;
-  animation-timing-function: linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
-}
-
-.cloud-back {
-  animation-duration: 34s;
-  animation-name: cloud-move-reverse;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
   animation-timing-function: linear;
 }
