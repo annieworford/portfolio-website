@@ -249,35 +249,6 @@ nav > ul > li > a:active {
 
 @media only screen and (min-width: 639px) {
 
-nav > ul > li {
-  display: inline-block;
-}
-
-nav > ul {
-  margin: 1em 0;
-}
-
-.navtoggle li:not(:last-child) {
-  display: inline-block;
-}
-
-.navtoggle li:last-child {
-  display: none;
-}
-
-header {
-  text-align: unset;
-  padding: 20px 0 13px;
-}
-
-
-nav {
-  width: auto;
-  float: right;
-  margin-top: 4px;
-}
-
-
 body {
   font-size: 18px;
 }
@@ -297,6 +268,37 @@ body {
 
 }
 
+@media only screen and (min-width: 680px) {
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  nav > ul {
+    margin: 1em 0;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+}
 
 @media only screen and (min-width: 1024px) {
 
