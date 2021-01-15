@@ -13,7 +13,7 @@ Fifth Color (white): #F5F5F5;
 
 header {
   background-color: #C3D7DF;
-  padding: 10px 0 4px;
+  padding: 5px 0 4px;
   position: relative;
   -webkit-box-shadow: 0px 9px 16px 0px rgba(50, 50, 50, 0.63);
   -moz-box-shadow:    0px 9px 16px 0px rgba(50, 50, 50, 0.63);
@@ -152,6 +152,8 @@ a:active {
 
 .logo {
   max-width: 150px;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -270,6 +272,10 @@ body {
 
 @media only screen and (min-width: 680px) {
 
+  .logo {
+    max-width: 100px;
+  }
+
   nav > ul > li {
     display: inline-block;
   }
@@ -288,7 +294,8 @@ body {
 
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding: 0;
+    margin: 0;
   }
 
 
@@ -302,9 +309,6 @@ body {
 
 @media only screen and (min-width: 1024px) {
 
-  .logo {
-    max-width: 250px;
-  }
 
 .col-lg-5 {
   width: 41.66%;
@@ -351,7 +355,15 @@ body {
   to {transform: translate(200px,50px);}
 }
 
-.scissors {
+#scissors {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternative;
+  animation-timing-function: linear;
+}
+
+.logo {
   animation-duration: 30s;
   animation-name: cloud-move;
   animation-iteration-count: infinite;
