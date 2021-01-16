@@ -52,7 +52,7 @@ h3 {
 
 h4 {
   font-size: 1.35em;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 p {
@@ -121,6 +121,10 @@ a:active {
 .button.contact:hover {
   background-color: #D75C37;
   color: #ffffff;
+}
+
+.button.return {
+  margin: 15px 10px;
 }
 
 /* Layout Styling */
@@ -267,6 +271,11 @@ body {
   margin-top: 0;
 }
 
+.container {
+margin-left: auto;
+margin-right: auto;
+}
+
 
 }
 
@@ -340,7 +349,6 @@ body {
   width: 100%;
 }
 
-}
 
 .berlin-illustration {
   width: 100%;
@@ -356,14 +364,6 @@ body {
 }
 
 #scissors {
-  animation-duration: 30s;
-  animation-name: cloud-move;
-  animation-iteration-count: infinite;
-  animation-direction: alternative;
-  animation-timing-function: linear;
-}
-
-.logo {
   animation-duration: 30s;
   animation-name: cloud-move;
   animation-iteration-count: infinite;
