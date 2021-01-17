@@ -21,6 +21,7 @@ header {
   box-shadow:         0px 9px 16px 0px rgba(50, 50, 50, 0.63);
 }
 
+
 body {
   background-color: #F5F5F5;
   font-family: 'Montserrat', sans-serif;
@@ -69,14 +70,17 @@ a {
   color: #9D3D1F;
   text-decoration: none;
 }
+
 a:visited {
   color: #67727A;
 }
+
 a:hover,
 a:focus {
   color: #4E8AA4;
   text-decoration: underline;
 }
+
 a:active {
   color: #9D3D1F;
 }
@@ -88,7 +92,7 @@ a:active {
   color: #ffffff;
   font-weight: 400;
   text-decoration: none;
-  padding:10px;
+  padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #994c30;
   transition: 0.2s opacity;
@@ -199,7 +203,6 @@ nav > ul > li > a:active {
 }
 
 #contact {
-  onclick="menuToggle()";
   background-color: #C3D7DF;
   padding: 20px 0;
   text-align: center;
@@ -258,6 +261,7 @@ nav > ul > li > a:active {
 }
 
 @media only screen and (min-width: 640px) {
+
 
 body {
   font-size: 18px;
