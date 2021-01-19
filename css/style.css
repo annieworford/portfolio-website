@@ -13,12 +13,9 @@ Sixth color (grey): #67727A;
 }
 
 header {
-  background-color: #C3D7DF;
+  background-color: #4E8AA4;
   padding: 5px 0 4px;
   position: relative;
-  -webkit-box-shadow: 0px 9px 16px 0px rgba(50, 50, 50, 0.63);
-  -moz-box-shadow:    0px 9px 16px 0px rgba(50, 50, 50, 0.63);
-  box-shadow:         0px 9px 16px 0px rgba(50, 50, 50, 0.63);
 }
 
 
@@ -39,7 +36,9 @@ h1 {
   font-size: 2.75em;
   font-weight: 700;
   text-transform: uppercase;
+  color: #4E8AA4;
 }
+
 
 h2 {
   font-size: 2.25em;
@@ -72,7 +71,7 @@ a {
 }
 
 a:visited {
-  color: #67727A;
+  color: #FFFFFF;
 }
 
 a:hover,
@@ -124,13 +123,21 @@ a:active {
 }
 
 .button.return {
-  margin: 15px 10px;
+  margin: 15px 0;
 }
 
 .button.next {
-  margin: 15px 55px;
+  margin: 15px 0;
   position: relative;
-  left: 220px;
+  float: right;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+#home-page .button.return {
+  margin-left: 10px;
 }
 
 
@@ -159,12 +166,13 @@ a:active {
 
 #hero h1 {
   text-align: center;
+  color: #4E8AA4;
 }
 
 .logo {
   max-width: 150px;
   margin: 0;
-  padding: 0;
+  padding: 10px 0;
 }
 
 
@@ -179,23 +187,22 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #4a4a4a;
+  color: #FFFFFF;
 }
 
 nav > ul > li > a:visited {
-  color: #67727A;
+  color: #FFFFFF;
 }
 nav > ul > li > a:hover,
 nav > ul > li > a:focus {
-  color: #4E8AA4;
-  text-decoration: underline;
+  color: #C3D7DF;
 }
 nav > ul > li > a:active {
   color: #CB4E29;
 }
 
 #hero {
-  background-color: #C3D7DF;
+  background-color: transparent;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -258,6 +265,10 @@ nav > ul > li > a:active {
 [class*="col-"] {
   float: left;
   padding: 10px;
+}
+
+.col-sm-6 {
+  width: 50%;
 }
 
 @media only screen and (min-width: 640px) {
