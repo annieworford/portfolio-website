@@ -19,8 +19,12 @@ header {
 }
 
 
+.small {
+  max-width: 400px;
+}
+
 body {
-  background-color: #F5F5F5;
+  background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -170,10 +174,11 @@ a:active {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 100px;
   margin: 0;
   padding: 10px 0;
 }
+
 
 
 nav > ul {
@@ -295,13 +300,12 @@ margin-left: auto;
 margin-right: auto;
 }
 
-
 }
 
 @media only screen and (min-width: 680px) {
 
   .logo {
-    max-width: 100px;
+    max-width: 75px;
   }
 
   nav > ul > li {
@@ -382,7 +386,7 @@ margin-right: auto;
 }
 
 .scissors {
-  animation-duration: 15s;
+  animation-duration: 8s;
   animation-name: scissors-move;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -395,7 +399,7 @@ margin-right: auto;
 }
 
 .eyebrow {
-  animation-duration: 12s;
+  animation-duration: 10s;
   animation-name: eyebrow-move;
   animation-iteration-count: infinite;
   animation-direction: alternate;
