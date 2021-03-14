@@ -18,11 +18,6 @@ header {
   position: relative;
 }
 
-
-.small {
-  max-width: 400px;
-}
-
 body {
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
@@ -88,7 +83,6 @@ a:active {
   color: #9D3D1F;
 }
 
-
 .button {
   display: inline-block;
   background-color: #CB4E29;
@@ -136,6 +130,16 @@ a:active {
   float: right;
 }
 
+.jumpto {
+    font-size: 1.75em;
+  color: #4E8AA4;
+  text-decoration: none;
+}
+
+ .jumpto:visited {
+   color: #4E8AA4;
+ }
+
 .no-padding {
   padding: 0 !important;
 }
@@ -174,11 +178,10 @@ a:active {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 80px;
   margin: 0;
   padding: 10px 0;
 }
-
 
 
 nav > ul {
@@ -304,8 +307,24 @@ margin-right: auto;
 
 @media only screen and (min-width: 680px) {
 
+  .small {
+    max-width:800px;
+  }
+
+  .xsmall {
+    max-width: 400px;
+  }
+
+  .containerSmall {
+    text-align: center;
+  }
+
   .logo {
     max-width: 75px;
+  }
+
+  .col-md-6 {
+    width: 50%;
   }
 
   nav > ul > li {
