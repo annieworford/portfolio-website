@@ -132,6 +132,20 @@ a:active {
   color: #ffffff;
 }
 
+.button.secondary {
+  background-color: transparent;
+  color: #C1996A;
+  border: 4px solid #C1996A;
+  margin-bottom: 30px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.button.secondary:hover {
+  background-color: #C1996A;
+  color: #ffffff;
+}
+
 .button.return {
   margin: 15px 0;
 }
